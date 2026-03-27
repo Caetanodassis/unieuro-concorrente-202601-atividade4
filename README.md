@@ -66,6 +66,21 @@ python .\conversoremescalacinza.py imagem_aleatoria_1gb.ppm saida_serial.ppm
 | **8** | 24.80 | 6.73x  | 0.84 |
 | **12** | 19.35 | 8.63x  | 0.72 |
 
+#-------------------------------------------------------
+## Gráfico de Execução
+
+![Gráfico Tempo Execução](graficos/TEMPO.png)
+
+
+## Gráfico de Speedup
+
+![Gráfico de Speedup](graficos/SPEEDUP.png)
+
+
+## Gráfico de Eficiência
+
+![Gráfico de Eficiência](graficos/EFICIENCIA.png)
+
 #---------------------------------------------------------
 # 🖥️ Como Executar a Solução
 
