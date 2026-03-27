@@ -1,5 +1,6 @@
 import numpy as np
 import time
+import argparse
 
 
 def ler_header_ppm(f):
@@ -84,8 +85,15 @@ def converter_para_cinza_serial(
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Converter imagem para escala de cinza")
+    
+    parser.add_argument("arquivo_entrada", help="Caminho do arquivo de entrada")
+    parser.add_argument("arquivo_saida", help="Caminho do arquivo de saída")
+        
+    args = parser.parse_args()
+
     tempo = converter_para_cinza_serial(
-        arquivo_entrada="imagem_aleatoria_1gb.ppm",
-        arquivo_saida="imagem_aleatoria_1gb_cinza.ppm",
+        arquivo_entrada=args.arquivo_entrada,
+        arquivo_saida=args.arquivo_saida,
         linhas_por_bloco=256
     )
