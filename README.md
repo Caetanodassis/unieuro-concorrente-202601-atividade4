@@ -69,17 +69,17 @@ python .\conversoremescalacinza.py imagem_aleatoria_1gb.ppm saida_serial.ppm
 #-------------------------------------------------------
 ## Gráfico de Execução
 
-![Gráfico Tempo Execução](graficos/TEMPO.png)
+![Gráfico Tempo Execução](TEMPO.png)
 
 
 ## Gráfico de Speedup
 
-![Gráfico de Speedup](graficos/SPEEDUP.png)
+![Gráfico de Speedup](SPEEDUP.png)
 
 
 ## Gráfico de Eficiência
 
-![Gráfico de Eficiência](graficos/EFICIENCIA.png)
+![Gráfico de Eficiência](EFICIENCIA.png)
 
 #---------------------------------------------------------
 # 🖥️ Como Executar a Solução
