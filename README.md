@@ -57,13 +57,14 @@ python .\conversoremescalacinza.py imagem_aleatoria_1gb.ppm saida_serial.ppm
 # --------------------------------------------------
 
 # 📊 Tabela de Desempenho
-# Configuração        Tempo (s)     Speedup     Eficiência
-# --------------------------------------------------------
-Serial              167.13        1.00x       1.00
-2 Threads           86.45         1.93x       0.97
-4 Threads           45.12         3.70x       0.93
-8 Threads           24.80         6.73x       0.84
-12 Threads          19.35         8.63x       0.72
+
+| Processos | Tempo (s) | Speedup | Eficiência |
+| :--- | :--- | :--- | :--- |
+| **1** | 115.96 | 1.00 | 1.00 |
+| **2** | 86.45 | 1.93x | 0.97 |
+| **4** | 45.12 | 3.70x | 0.93 |
+| **8** | 24.80 | 6.73x  | 0.84 |
+| **12** | 19.35 | 8.63x  | 0.72 |
 
 #---------------------------------------------------------
 # 🖥️ Como Executar a Solução
